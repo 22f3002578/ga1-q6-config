@@ -91,6 +91,6 @@ def effective_config(set: list[str] = Query(default=[])):
     }
 
     # Never expose the actual API key
-    result["api_key"] = "*****"
+    result["api_key"] = "****"
 
     return result
